@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Paathshala_assignment/static/css/main.bbd38136.css",
-    "main.js": "/Paathshala_assignment/static/js/main.5469fda4.js",
+    "main.js": "/Paathshala_assignment/static/js/main.ec747ea7.js",
     "static/js/787.5fa793dc.chunk.js": "/Paathshala_assignment/static/js/787.5fa793dc.chunk.js",
     "index.html": "/Paathshala_assignment/index.html",
     "main.bbd38136.css.map": "/Paathshala_assignment/static/css/main.bbd38136.css.map",
-    "main.5469fda4.js.map": "/Paathshala_assignment/static/js/main.5469fda4.js.map",
+    "main.ec747ea7.js.map": "/Paathshala_assignment/static/js/main.ec747ea7.js.map",
     "787.5fa793dc.chunk.js.map": "/Paathshala_assignment/static/js/787.5fa793dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbd38136.css",
-    "static/js/main.5469fda4.js"
+    "static/js/main.ec747ea7.js"
   ]
 }
