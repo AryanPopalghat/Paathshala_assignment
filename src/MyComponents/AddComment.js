@@ -36,7 +36,7 @@ function AddComment(props) {
           type="text"
           value={name}
           aria-label="Your name"
-          readonly
+          
           onChange={(e)=>{setName(e.target.value)}}
         />
         <label htmlFor="email" className="form-label">
@@ -50,7 +50,7 @@ function AddComment(props) {
           value={email}
           onChange={(e)=>{setEmail(e.target.value)}}
         />
-        <label htmlFor="btitle" className="form-label" >Title (This field is case sensitive. Write the exact title of the blog.)
+        <label htmlFor="btitle" className="form-label mt-3" >Title (This field is case sensitive. Write the exact title of the blog.)
         <input
           value={btitle}
           onChange={(e)=>{setBtitle(e.target.value)}}
@@ -69,8 +69,9 @@ function AddComment(props) {
           value={com}
           onChange={(e)=>{setCom(e.target.value)}}
         ></textarea>
-        <button type="submit" class="btn btn-secondary mt-3" >Comment</button>
+        
       </div>
+      <button type="submit" class="btn btn-secondary mt-3" >Comment</button>
       </form>
       </div>
       

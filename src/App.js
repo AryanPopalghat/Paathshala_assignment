@@ -10,6 +10,7 @@ import About from './MyComponents/About';
 import Contact from './MyComponents/contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
+  
   let initComment;
   if(localStorage.getItem("comments")===null){
      initComment=[];
@@ -17,7 +18,7 @@ function App() {
   else{
     initComment=JSON.parse(localStorage.getItem("comments"));
   }
-  const addComment = (name,com,email, btitle)=>{
+  const addComment = (name,email,com, btitle)=>{
     let csno;
     if(comments.length===0){
       csno=0;
@@ -27,10 +28,13 @@ function App() {
     }
     const myComment={
       csno:csno,
-      btitle:btitle,
-      com:com,
       name:name,
-      email: email
+      email: email,
+      com:com,
+      btitle:btitle
+      
+      
+      
     }
     setComments([...comments, myComment])
     }

@@ -1,17 +1,17 @@
 import React from "react";
 
-const comment = (comment) => {
+const comment = ({comment}) => {
   return (
     <>
   <div>
     <div className="card w-75 mb-3">
       <div className="card-body">
-        <h5 className="card-title" style={{ color: "black" }}>{comment.btitle}</h5>
+        <h5 className="card-title" style={{ color: "black" }}><b>{comment.btitle}</b></h5>
         <p className="card-text" style={{ color: "black" }}>
-          {comment.com}
+        {comment.email}
         </p>
-        <h6 className="card-text text-centre" style={{ color: "black" }}>
-          -{comment.name}<br/>({comment.email})
+        <h6 className="card-text " style={{ color: "rgb(63, 61, 61)" , textAlign:'right',fontFamily:'"Lucida Console", "Courier New", monospace',fontSize:'small' }}>
+          - {comment.name}<br/>({comment.com})
         </h6>
       </div>
     </div>
