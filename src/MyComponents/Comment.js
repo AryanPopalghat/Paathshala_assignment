@@ -8,10 +8,11 @@ const comment = ({comment}) => {
       <div className="card-body">
         <h5 className="card-title" style={{ color: "black" }}><b>{comment.btitle}</b></h5>
         <p className="card-text" style={{ color: "black" }}>
-        {comment.email}
+        {comment.com}
+        
         </p>
         <h6 className="card-text " style={{ color: "rgb(63, 61, 61)" , textAlign:'right',fontFamily:'"Lucida Console", "Courier New", monospace',fontSize:'small' }}>
-          - {comment.name}<br/>({comment.com})
+          - {comment.name}<br/>({comment.email})
         </h6>
       </div>
     </div>
